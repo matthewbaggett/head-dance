@@ -1,0 +1,24 @@
+{
+    "name": "matthewbaggett/head_dance",
+    "description": "Make the head on my printer dance around.",
+    "type": "project",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "kint-php/kint": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MatthewBaggett\\HeadDance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@baggett.me"
+        }
+    ]
+}
